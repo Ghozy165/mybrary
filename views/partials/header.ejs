@@ -1,11 +1,27 @@
-<header>
+<header class="header">
     <nav class="header-nav">
         <a class="header-title" href="/">Mybrary</a>
         <ul>
+            <li><a href="/">Home</a></li>
             <li><a href="/authors">Authors</a></li>
             <li><a href="/authors/new">Add Author</a></li>
             <li><a href="/books">Books</a></li>
             <li><a href="/books/new">Add Book</a></li>
         </ul>
+        <div class="menu">
+            <div class="overlay"></div>
+            <img class="menu-icon" width="50" height="50" src="/icons/hamburger-menu.svg">
+        
+            <div class="menu-content">
+                <img class="close-btn" width="50" height="50" src="/icons/close-icon.svg">
+                <ul class="menu-items">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/books">Books</a></li>
+                    <li><a href="/authors">Authors</a></li>
+                    <li><a href="/books/new">Add Book</a></li>
+                    <li><a href="/authors/new">Add Author</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 </header>
