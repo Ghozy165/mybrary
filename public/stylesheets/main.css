@@ -27,7 +27,7 @@ body {
 }
 
 .inner-container {
-  margin: 0 2rem;
+  margin: 0 clamp(0.5rem, -0.0217rem + 2.6087vw, 2rem);
 }
 
 .page-header {
