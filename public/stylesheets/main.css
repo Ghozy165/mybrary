@@ -35,6 +35,10 @@ body {
   font-weight: 500;
 }
 
+label {
+  font-size: clamp(0.5rem, 0.5761rem + 0.8696vw, 1.25rem);
+}
+
 .error-message {
   color: hsl(var(--color-danger-hue), 100%, 50%);
 }
